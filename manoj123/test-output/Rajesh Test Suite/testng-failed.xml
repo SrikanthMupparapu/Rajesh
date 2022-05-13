@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rajesh Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.sample.manoj123(failed)">
+    <groups>
+      <run>
+        <include name="one"/>
+        <include name="two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sample.manoj123.Donga">
+        <methods>
+          <include name="UseAnotherAccount"/>
+        </methods>
+      </class> <!-- com.sample.manoj123.Donga -->
+    </classes>
+  </test> <!-- com.sample.manoj123(failed) -->
+</suite> <!-- Failed suite [Rajesh Test Suite] -->

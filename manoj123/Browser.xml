@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Rajesh Test Suite" parallel="classes" thread-count="2">
+<test  name="com.sample.manoj123">
+<groups>
+<run>
+<include name="one"></include>
+<include name="two"></include>
+</run>
+</groups>
+<classes>
+<class name="com.sample.manoj123.Donga"></class>
+</classes>
+</test>
+<test  name="com.sample.manoj123">
+<groups>
+<run>
+<include name="one"></include>
+<include name="two"></include>
+</run>
+</groups>
+<classes>
+<class name="com.sample.manoj123.Donga1"></class>
+</classes>
+</test>
+
+
+</suite>

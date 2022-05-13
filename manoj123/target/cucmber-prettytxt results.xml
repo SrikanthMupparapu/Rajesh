@@ -1,0 +1,8 @@
+
+Scenario: Add  Employee                                           [90m# features/logout.feature:6[0m
+  [32mGiven [0m[32mopen browser and navigate to required url[0m                 [90m# com.sample.manoj123.StepDefination.open_browser_and_navigate_to_required_url()[0m
+  [32mWhen [0m[32menter user name and password and click on login[0m            [90m# com.sample.manoj123.StepDefination.enter_user_name_and_password_and_click_on_login()[0m
+  [32mThen [0m[32mhome page should be displayed[0m                              [90m# com.sample.manoj123.StepDefination.home_page_should_be_displayed()[0m
+  [32mWhen [0m[32mclick on PIM ,click on employee and enter employee details[0m [90m# com.sample.manoj123.StepDefination.click_on_pim_click_on_employee_and_enter_employee_details()[0m
+  [32mWhen [0m[32mclick on welcome[0m                                           [90m# com.sample.manoj123.StepDefination.click_on_welcome()[0m
+  [32mAnd [0m[32mclose browser[0m                                               [90m# com.sample.manoj123.StepDefination.close_browser()[0m
